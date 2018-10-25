@@ -39,8 +39,8 @@ collections: # A list of collections the CMS should be able to edit
               - {label: "Website Description", name: "metadesc", widget: "string"}
               - {label: "Keywords", name: "metakeyword", widget: "string"}
               - {label: "Footer", name: "footer", widget: "markdown"}
-              - {label: "Live Domain url", name: "siteurl", widget="string""}
-              - {label: "Google Verification Code", name: "console", widget="string""}
+              - {label: "Live Domain url", name: "siteurl", widget: "string""}
+              - {label: "Google Verification Code", name: "console", widget: "string""}
 
 
   - name: "posts" # Used in routes, ie.: /admin/collections/:slug/edit
@@ -57,7 +57,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Title Tags", name: "page_title", widget: "string"}
       - {label: "Meta Description", name: "metadesc", widget: "string"}
       - {label: "Meta Keywords", name: "metakeywords", widget: "string"}
-      - {label: "Banner", name: "banner", widget: "image", class: "image thumbnail", media_folder: "assets/img/uploads"}
+      - {label: "Banner", name: "banner", widget: "image", class: "image thumbnail", "}
 
   - name: "filemanager"
     label: "File Manager"
