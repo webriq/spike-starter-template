@@ -3,7 +3,12 @@
     <h1>{{ site.sitedata[0].sitename }}</h1>
     <p>{{ site.sitedata[0].metadesc }}</p>
     <br />
-    <h2>Recent Blogs:</h2>
+    <h2>Inner Pages</h2>
+    <ul>
+      <li><a href="/about">About</a></li>
+      <li><a href="/thank-you">Thank you page</a></li>
+    </ul>
+    <h2>Recent Blogs:</h2>    
     <ul>
       <each loop="post, index of _collections.posts">
         <li>
@@ -11,5 +16,5 @@
         </li>
       </each>
     </ul>
-  </block>  
+  </block>
 </extends>

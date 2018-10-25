@@ -21,7 +21,7 @@ const collections = new Collections({
             return `posts/index.html`
           }
           return `posts/${n}.html`
-        } 
+        }
       }
     }
   }
@@ -56,5 +56,6 @@ module.exports = {
     minify: env === 'production'
   }),
   babel: jsStandards(),
+  vendor: ['assets/js/**'],
   plugins: [collections, records]
 }
